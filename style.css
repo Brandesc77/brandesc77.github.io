@@ -1,0 +1,122 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  box-sizing: border-box;
+}
+.title {
+  display: flex;
+  justify-content: center;
+  box-sizing: border-box;
+  background-color: rgb(203, 201, 198);
+  padding: 1rem;
+}
+.nav-bar {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  background-color: rgb(173, 164, 152);
+  padding: 0.5rem;
+}
+a {
+  text-decoration: none;
+  color: black;
+  padding: 1rem;
+}
+h2 {
+  text-align: center;
+  padding-top: 1rem;
+}
+.about-me {
+  align-items: center;
+}
+
+.bio {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  place-items: center;
+  /* padding-left: 2rem; */
+  text-align: justify;
+}
+@media (max-width: 1040px) {
+  .bio {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (max-width: 400px) {
+  .bio {
+    display: flex;
+    flex-direction: column;
+  }
+  .bio p {
+    text-align: left;
+    padding: 1rem;
+  }
+}
+
+.bio p {
+  padding-left: 3rem;
+}
+.bio img {
+  height: 300px;
+  max-width: 100%;
+}
+.skills-contact {
+  display: flex;
+  padding-top: 2rem;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 2rem;
+}
+.skills-contact h3 {
+  text-align: center;
+  padding-bottom: 0.5rem;
+}
+.technical {
+  display: flex;
+  flex-direction: column;
+}
+.skills {
+  padding-left: 1rem;
+}
+.links {
+  text-decoration: underline;
+}
+.projects {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 2rem;
+}
+.project {
+  background: #bebebe;
+  border: #777777 solid 2px;
+  margin: 1rem;
+  padding: 25px;
+  border-radius: 100px;
+  text-align: center;
+}
+.project ul {
+  display: inline-block;
+}
+.project ul li {
+  padding-top: 0.5rem;
+}
+.project h3 {
+  text-align: center;
+  padding-bottom: 0.5rem;
+}
+.project img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 0.5rem;
+}
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 5vh;
+  border: 1px solid #bbb;
+  background-color: rgb(203, 201, 198);
+  font-style: italic;
+}
