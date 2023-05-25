@@ -34,7 +34,6 @@ h2 {
   display: grid;
   grid-template-columns: 2fr 1fr;
   place-items: center;
-  /* padding-left: 2rem; */
   text-align: justify;
 }
 @media (max-width: 1040px) {
